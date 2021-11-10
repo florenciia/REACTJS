@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import React, { Fragment } from 'react';
 import './App.css';
+import './styles.css';
 
+//fragment es igual que hacerlo con un div general
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <div className="App" id="container-fluid">
+          <nav class="navbar navbar-expand-lg">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FRAGANCIAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">COMPRA POR WPP</a>
+              </li>
+            </ul>
+          </nav>
+      </div>
+      
+    </Fragment>
   );
 }
 
