@@ -1,0 +1,51 @@
+.container {
+	display: flex;
+	justify-content: center;
+	background-color: #002352;
+    color: #ffffff;
+}
+.navbar-brand{
+    color: #ffffff;
+    font-size: 25px;
+}
+.navbar-toggler-icon{
+    background-color: #ffffff;
+}
+.navbar-toggler{
+    background-color: #ffffff;
+}
+.container ul {
+	display: flex;
+	justify-content: space-between;
+	padding: 1px;
+}
+.dropdown-menu{
+    background-color: red;
+}
+.nav-link{
+    color: #ffffff;
+}
+
+.nav-item, .dropdown-menu, .dropdown-item{
+    color: #ffffff;
+}
+.nav-item:hover{
+    color: #ffffff;
+    background-color: lightblue;
+    border-radius: 5rem;
+}
+.carrito{
+    color: #ffffff;
+    margin-top: 1.5rem ;
+}
+li {
+	margin: 15px;
+	list-style-type: none;
+}
+
+body{
+    background-color: #002352;
+}
+.menuu{
+    background-color: #002352;
+}

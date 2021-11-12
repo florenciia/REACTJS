@@ -1,0 +1,25 @@
+/*
+Como era antes??
+
+Componentes de tipo clase VS funcionales.
+Clase: podíamos tener estado y ciclos de vida de los Componentes.
+
+Clase -> Tienen un MÉTODO especial llamado RENDER()
+Podían tener lógica, tienen q ver con (OOP) el paradigma orientado a objetos
+setState() --> Modificar el estado original.
+
+Funcionales --> devolver JSX.
+Function --> representacionales, stateless, dummy.
+
+Antes --> Los componentes de tipo function,
+no podían guardar ni estado ni lógica.
+
+ESTO cambio al ser posible guardar state y emular
+ciclos de vida en los componentes funcionales a partir
+de los hooks.
+
+COMPONENTES === REUTILIZABLES===
+CUSTOMIZABLES ===> PROPS == no deberían modificarse
+
+STATE == Puede mutar.
+*/
