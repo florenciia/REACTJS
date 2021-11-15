@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './NavBar.css';
 import { Icon } from 'semantic-ui-react';
 
-
-const CartWidget = () => {
+class CartWidget extends Component {
+	render() {
     return (
         <>
             <nav className="navbar navbar-expand-lg container-fluid">
@@ -18,7 +18,8 @@ const CartWidget = () => {
         </>
             
     
-    );
+        );
+    }
 };
 
 export default CartWidget;

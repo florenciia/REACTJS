@@ -25,8 +25,6 @@ class App extends Component {
                 color="#002352"
           />
 
-          <CartWidget />
-
             <div className="UserSection container-fluid">
                 <UserCard
                   name='Perfume Uno'

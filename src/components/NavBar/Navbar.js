@@ -34,6 +34,7 @@ const NavBar = () => {
                                 <li className="nav-item">
                                     <a className="nav-link" href="#"> COMPRA X WPP </a>
                                 </li>
+                                <CartWidget />
                             </ul>
                         </div>
                     </div>
