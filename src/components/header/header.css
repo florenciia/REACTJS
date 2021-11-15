@@ -1,17 +1,14 @@
 .Header {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #002352;
-    width: 80%;
-    height: 5rem;
-    border: 2px solid #002352;
-    margin: 3rem;
-    padding: 1rem;
-    color: lightblue;
+    text-decoration: underline lightblue;
+    margin-top: 1rem;
 }
 
-.Header h1,
-h2 {
+.Header h1 {
     color: white;
+}
+.titulo{
+    font-size: 1.5rem;
+    text-align: center;
 }

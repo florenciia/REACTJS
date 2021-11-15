@@ -1,6 +1,7 @@
 import React from 'react';
 import './NavBar.css';
-import { Icon } from 'semantic-ui-react';
+import CartWidget from './CartWidget';
+
 
 
 const NavBar = () => {
@@ -15,7 +16,7 @@ const NavBar = () => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">INICIO</a>
+                                    <a className="nav-link" aria-current="page" href="#">INICIO</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">NOSOTROS</a>
@@ -30,8 +31,8 @@ const NavBar = () => {
                                             <li><a className="dropdown-item" href="#">Niños</a></li>
                                         </ul>
                                 </li>
-                                <li className="carrito">
-                                    <Icon name='cart arrow down' />                        
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#"> COMPRA X WPP </a>
                                 </li>
                             </ul>
                         </div>

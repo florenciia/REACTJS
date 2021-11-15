@@ -17,13 +17,31 @@
 .container ul {
 	display: flex;
 	justify-content: space-between;
-	padding: 1px;
 }
 .dropdown-menu{
-    background-color: red;
+    width: 30px;
+    text-align: center;
+    background-color: lightblue;
+    color: #000000;
+}
+.dropdown-menu:hover{
+    background-color: lightblue;
+    color: #000000;
+}
+.dropdown-item:hover{
+    background-color: darkslategrey;
+    color: #ffffff;
+    border-radius: 10rem;
+    text-align:left;
 }
 .nav-link{
     color: #ffffff;
+}
+.nav-link:hover, .navbar-brand:hover{
+    color: lightblue;
+    box-shadow: inset 15px 2px 15px 5px darkslategrey;
+    border-radius: 30px;
+
 }
 
 .nav-item, .dropdown-menu, .dropdown-item{
@@ -31,21 +49,22 @@
 }
 .nav-item:hover{
     color: #ffffff;
-    background-color: lightblue;
-    border-radius: 5rem;
+    background-color: transparent;
+    border-radius: 2rem;
 }
 .carrito{
     color: #ffffff;
-    margin-top: 1.5rem ;
+    margin-top: 1rem;
+}
+.carrito:hover {
+    box-shadow: inset 15px 2px 15px 5px darkslategrey;
+    border-radius: 30px;
 }
 li {
-	margin: 15px;
+	margin: 5px;
 	list-style-type: none;
 }
 
 body{
-    background-color: #002352;
-}
-.menuu{
     background-color: #002352;
 }

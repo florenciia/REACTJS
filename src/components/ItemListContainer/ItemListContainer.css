@@ -1,0 +1,11 @@
+.UserCard{
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 20rem;
+    height: auto;
+    border: solid 10px black;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}

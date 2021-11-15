@@ -2,10 +2,7 @@ import React from 'react';
 import { Card, Image } from 'semantic-ui-react';
 import { Button } from 'semantic-ui-react'
 
-import './TarjetaPerfumes.css';
-
-
-
+import './ItemListContainer.css';
 
 const UserCard = ({img, name, price, boton }) => (
 	<div className='UserCard'>
