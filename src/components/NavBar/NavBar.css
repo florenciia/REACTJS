@@ -8,6 +8,15 @@
     color: #ffffff;
     font-size: 25px;
 }
+.nav-link{
+    color: #ffffff;
+}
+.nav-link:hover, .navbar-brand:hover{
+    color: lightblue;
+    box-shadow: inset 15px 2px 15px 5px darkslategrey;
+    border-radius: 30px;
+
+}
 .navbar-toggler-icon{
     background-color: #ffffff;
 }
@@ -19,13 +28,16 @@
 	justify-content: space-between;
 }
 .dropdown-menu{
+    margin-top: 30rem;
     width: 30px;
     text-align: center;
     background-color: lightblue;
-    color: #000000;
 }
 .dropdown-menu:hover{
     background-color: lightblue;
+    color: #000000;
+}
+.dropdown-item {
     color: #000000;
 }
 .dropdown-item:hover{
@@ -34,17 +46,9 @@
     border-radius: 10rem;
     text-align:left;
 }
-.nav-link{
-    color: #ffffff;
-}
-.nav-link:hover, .navbar-brand:hover{
-    color: lightblue;
-    box-shadow: inset 15px 2px 15px 5px darkslategrey;
-    border-radius: 30px;
 
-}
 
-.nav-item, .dropdown-menu, .dropdown-item{
+.nav-item, .dropdown-menu, {
     color: #ffffff;
 }
 .nav-item:hover{

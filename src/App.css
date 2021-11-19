@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #002352;
 }
 
 .UserSection{
@@ -7,4 +8,12 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 0.5rem;
   align-items: center;
+}
+
+.CounterSection{
+  width: 25rem;
+  padding: 2rem;
+  margin: 2rem;
+  color: white;
+  background-color: black;
 }

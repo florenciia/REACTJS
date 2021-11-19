@@ -12,7 +12,6 @@ class CartWidget extends Component {
                     <li className="carrito">
                         <Icon name='cart arrow down' />                        
                     </li>
-                      
                 </div>
             </nav> 
         </>

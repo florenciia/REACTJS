@@ -1,14 +1,15 @@
 import React from 'react'
-import './header.css';
+import './Header.css';
 
 
-const header = (props) => {
-    console.log(props);
+const header = ({title, color}) => {
     return (
-        <div style={{backgroundColor: `${props.color}`}} className="Header">
-            <h1 className="titulo">{props.title}</h1>
+        <div className="Header">
+            <h1 className="titulo">{title}</h1>
         </div>
     );
 };
 
 export default header;
+
+/* <div style={{backgroundColor: `${color}`}} className="Header"> */
