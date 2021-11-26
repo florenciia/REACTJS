@@ -47,10 +47,10 @@
     text-align:left;
 }
 
-
-.nav-item, .dropdown-menu, {
+.nav-item, .dropdown-menu {
     color: #ffffff;
 }
+
 .nav-item:hover{
     color: #ffffff;
     background-color: transparent;

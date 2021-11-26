@@ -6,55 +6,63 @@
   import { header } from 'semantic-ui-react';
   import NavBar from './components/NavBar/Navbar';
   import UserCard from './components/ItemListContainer/ItemListContainer';
+  import ItemList from './components/ItemListContainer/ItemList';
 //import CartWidget from './components/NavBar/CartWidget';
   //fragment es igual que hacerlo con un div general
+
   class App extends Component {
   	render() {
         return (
+          <>
 
-          <div className="App" id="container-fluid">
-              <NavBar/>
-              <Header
-                    title="Deja elegir a tus sentidos"
-              />
-              
-                <div className="UserSection container-fluid">
-                      <UserCard
-                        name='Perfume Uno'
-                        price='$1500'
-                        img='https://react.semantic-ui.com/images/avatar/large/matthew.png'
-                        boton='Agregar al carrito'
-                      />
-                      <UserCard
-                        name='Perfume Dos'
-                        price='$ 2500'
-                        img='https://react.semantic-ui.com/images/avatar/large/elliot.jpg'
-                        boton='Agregar al carrito'
-                      />
-                      <UserCard
-                        name='Perfume Tres'
-                        price='$4000'
-                        img='https://react.semantic-ui.com/images/avatar/large/daniel.jpg'
-                        boton='Agregar al carrito'
-                      />
-                      <UserCard
-                        name='Perfume Cuatro'
-                        price='$4600'
-                        img='https://react.semantic-ui.com/images/avatar/large/daniel.jpg'
-                        boton='Agregar al carrito'
-                      />
-                      <UserCard
-                        name='Perfume Cinco'
-                        price='$7000'
-                        img='https://react.semantic-ui.com/images/avatar/large/daniel.jpg'
-                        boton='Agregar al carrito'
-                      />
+              <div className="App" id="container-fluid">
+                <NavBar/>         
 
-                </div>
-          </div>
+                  <Header
+                        title="Deja elegir a tus sentidos"
+                  />
+                  <ItemList />
+                  
+                    <div className="UserSection container-fluid">
+                          <UserCard
+                            name='Perfume Uno'
+                            price='$1500'
+                            img='https://react.semantic-ui.com/images/avatar/large/matthew.png'
+                            boton='Agregar al carrito'
+                          />
+                          <UserCard
+                            name='Perfume Dos'
+                            price='$ 2500'
+                            img='https://react.semantic-ui.com/images/avatar/large/elliot.jpg'
+                            boton='Agregar al carrito'
+                          />
+                          <UserCard
+                            name='Perfume Tres'
+                            price='$4000'
+                            img='https://react.semantic-ui.com/images/avatar/large/daniel.jpg'
+                            boton='Agregar al carrito'
+                          />
+                          <UserCard
+                            name='Perfume Cuatro'
+                            price='$4600'
+                            img='https://react.semantic-ui.com/images/avatar/large/daniel.jpg'
+                            boton='Agregar al carrito'
+                          />
+                          <UserCard
+                            name='Perfume Cinco'
+                            price='$7000'
+                            img='https://react.semantic-ui.com/images/avatar/large/daniel.jpg'
+                            boton='Agregar al carrito'
+                          />
+
+
+
+                    </div>
+              </div>
+          </>
       );
     }
-  }
+  }; 
   export default App;
 
 
