@@ -7,14 +7,17 @@ const ItemList = () => {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
+    
         setTimeout(() => {
             console.log("Aparece luego de 2 segundos");
-        //api de fetch 
+        //api de FETCH
         fetch('https://api.github.com/users')
         .then((response) => response.json())
         .then ((json) => setUsers(json));
     }, 2000);
     },  []);
+
+
     //el array vacío es para que el useEffect se ejecute una vez luego del primer renderizado unicamente.
     //[variable]... sino, luego la variable
     return (

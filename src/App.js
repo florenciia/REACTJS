@@ -1,27 +1,25 @@
   import React, { Component } from 'react';
   import './App.css';
-  import 'semantic-ui-css/semantic.min.css';
   //components
   import Header from './components/Header/Header';
   import { header } from 'semantic-ui-react';
   import NavBar from './components/NavBar/Navbar';
   import UserCard from './components/ItemListContainer/ItemListContainer';
-  import ItemList from './components/ItemListContainer/ItemList';
-//import CartWidget from './components/NavBar/CartWidget';
-  //fragment es igual que hacerlo con un div general
-
+  // import ItemList from './components/ItemListContainer/ItemList';
+  //import CartWidget from './components/NavBar/CartWidget';
+  import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
   class App extends Component {
   	render() {
         return (
-          <>
+          
+          <div className="App" id="container-fluid">
+                <NavBar/>       
 
-              <div className="App" id="container-fluid">
-                <NavBar/>         
-
+                <ItemDetailContainer />
+                
                   <Header
                         title="Deja elegir a tus sentidos"
                   />
-                  <ItemList />
                   
                     <div className="UserSection container-fluid">
                           <UserCard
@@ -55,11 +53,8 @@
                             boton='Agregar al carrito'
                           />
 
-
-
                     </div>
-              </div>
-          </>
+          </div>
       );
     }
   }; 
